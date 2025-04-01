@@ -32,32 +32,32 @@ requirements:
     - opentelemetry-instrumentation-urllib3 >=0.50b0
     - opentelemetry-instrumentation-threading >=0.50b0
     - opentelemetry-semantic-conventions-ai 0.4.3
-    - opentelemetry-instrumentation-mistralai ==0.38.12
-    - opentelemetry-instrumentation-openai ==0.38.12
-    - opentelemetry-instrumentation-ollama ==0.38.12
-    - opentelemetry-instrumentation-anthropic ==0.38.12
-    - opentelemetry-instrumentation-cohere ==0.38.12
-    - opentelemetry-instrumentation-crewai ==0.38.12
-    - opentelemetry-instrumentation-google-generativeai ==0.38.12
-    - opentelemetry-instrumentation-pinecone ==0.38.12
-    - opentelemetry-instrumentation-qdrant ==0.38.12
-    - opentelemetry-instrumentation-langchain ==0.38.12
-    - opentelemetry-instrumentation-lancedb ==0.38.12
-    - opentelemetry-instrumentation-chromadb ==0.38.12
-    - opentelemetry-instrumentation-transformers ==0.38.12
-    - opentelemetry-instrumentation-together ==0.38.12
-    - opentelemetry-instrumentation-llamaindex ==0.38.12
-    - opentelemetry-instrumentation-milvus ==0.38.12
-    - opentelemetry-instrumentation-haystack ==0.38.12
-    - opentelemetry-instrumentation-bedrock ==0.38.12
-    - opentelemetry-instrumentation-sagemaker ==0.38.12
-    - opentelemetry-instrumentation-replicate ==0.38.12
-    - opentelemetry-instrumentation-vertexai ==0.38.12
-    - opentelemetry-instrumentation-watsonx ==0.38.12
-    - opentelemetry-instrumentation-weaviate ==0.38.12
-    - opentelemetry-instrumentation-alephalpha ==0.38.12
-    - opentelemetry-instrumentation-marqo ==0.38.12
-    - opentelemetry-instrumentation-groq ==0.38.12
+    - opentelemetry-instrumentation-mistralai =={{ version }}
+    - opentelemetry-instrumentation-openai =={{ version }}
+    - opentelemetry-instrumentation-ollama =={{ version }}
+    - opentelemetry-instrumentation-anthropic =={{ version }}
+    - opentelemetry-instrumentation-cohere =={{ version }}
+    - opentelemetry-instrumentation-crewai =={{ version }}
+    - opentelemetry-instrumentation-google-generativeai =={{ version }}
+    - opentelemetry-instrumentation-pinecone =={{ version }}
+    - opentelemetry-instrumentation-qdrant =={{ version }}
+    - opentelemetry-instrumentation-langchain =={{ version }}
+    - opentelemetry-instrumentation-lancedb =={{ version }}
+    - opentelemetry-instrumentation-chromadb =={{ version }}
+    - opentelemetry-instrumentation-transformers =={{ version }}
+    - opentelemetry-instrumentation-together =={{ version }}
+    - opentelemetry-instrumentation-llamaindex =={{ version }}
+    - opentelemetry-instrumentation-milvus =={{ version }}
+    - opentelemetry-instrumentation-haystack =={{ version }}
+    - opentelemetry-instrumentation-bedrock =={{ version }}
+    - opentelemetry-instrumentation-sagemaker =={{ version }}
+    - opentelemetry-instrumentation-replicate =={{ version }}
+    - opentelemetry-instrumentation-vertexai =={{ version }}
+    - opentelemetry-instrumentation-watsonx =={{ version }}
+    - opentelemetry-instrumentation-weaviate =={{ version }}
+    - opentelemetry-instrumentation-alephalpha =={{ version }}
+    - opentelemetry-instrumentation-marqo =={{ version }}
+    - opentelemetry-instrumentation-groq =={{ version }}
     - colorama >=0.4.6,<0.5.0
     - tenacity >=8.2.3,<9.0.0
     - pydantic >=1
