@@ -32,7 +32,7 @@ requirements:
     - opentelemetry-instrumentation-urllib3 >=0.50b0
     - opentelemetry-instrumentation-threading >=0.50b0
     - opentelemetry-semantic-conventions-ai 0.4.3
-    - opentelemetry-instrumentation-mistralai >=0.39.0,0.40.0
+    - opentelemetry-instrumentation-mistralai ==0.39.0
     - opentelemetry-instrumentation-openai ==0.39.0
     - opentelemetry-instrumentation-ollama ==0.39.0
     - opentelemetry-instrumentation-anthropic ==0.39.0
