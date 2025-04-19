@@ -1,5 +1,5 @@
 {% set name = "traceloop-sdk" %}
-{% set version = "0.39.1" %}
+{% set version = "0.39.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/traceloop_sdk-{{ version }}.tar.gz
-  sha256: 49ceeeb6abce69d0230f7758455b3a9d641cd9b5234bda929e6d281bdab254b2
+  sha256: 9dd780a8d820e0b2ef8ce5e3274d95c06fd16d17e43ffd491f8e7ed4d35b7a35
 
 build:
   noarch: python
@@ -32,32 +32,32 @@ requirements:
     - opentelemetry-instrumentation-urllib3 >=0.50b0
     - opentelemetry-instrumentation-threading >=0.50b0
     - opentelemetry-semantic-conventions-ai 0.4.3
-    - opentelemetry-instrumentation-mistralai ==0.39.1
-    - opentelemetry-instrumentation-openai ==0.39.1
-    - opentelemetry-instrumentation-ollama ==0.39.1
-    - opentelemetry-instrumentation-anthropic ==0.39.1
-    - opentelemetry-instrumentation-cohere ==0.39.1
-    - opentelemetry-instrumentation-crewai ==0.39.1
-    - opentelemetry-instrumentation-google-generativeai ==0.39.1
-    - opentelemetry-instrumentation-pinecone ==0.39.1
-    - opentelemetry-instrumentation-qdrant ==0.39.1
-    - opentelemetry-instrumentation-langchain ==0.39.1
-    - opentelemetry-instrumentation-lancedb ==0.39.1
-    - opentelemetry-instrumentation-chromadb ==0.39.1
-    - opentelemetry-instrumentation-transformers ==0.39.1
-    - opentelemetry-instrumentation-together ==0.39.1
-    - opentelemetry-instrumentation-llamaindex ==0.39.1
-    - opentelemetry-instrumentation-milvus ==0.39.1
-    - opentelemetry-instrumentation-haystack ==0.39.1
-    - opentelemetry-instrumentation-bedrock ==0.39.1
-    - opentelemetry-instrumentation-sagemaker ==0.39.1
-    - opentelemetry-instrumentation-replicate ==0.39.1
-    - opentelemetry-instrumentation-vertexai ==0.39.1
-    - opentelemetry-instrumentation-watsonx ==0.39.1
-    - opentelemetry-instrumentation-weaviate ==0.39.1
-    - opentelemetry-instrumentation-alephalpha ==0.39.1
-    - opentelemetry-instrumentation-marqo ==0.39.1
-    - opentelemetry-instrumentation-groq ==0.39.1
+    - opentelemetry-instrumentation-mistralai {{ version }}
+    - opentelemetry-instrumentation-openai {{ version }}
+    - opentelemetry-instrumentation-ollama {{ version }}
+    - opentelemetry-instrumentation-anthropic {{ version }}
+    - opentelemetry-instrumentation-cohere {{ version }}
+    - opentelemetry-instrumentation-crewai {{ version }}
+    - opentelemetry-instrumentation-google-generativeai {{ version }}
+    - opentelemetry-instrumentation-pinecone {{ version }}
+    - opentelemetry-instrumentation-qdrant {{ version }}
+    - opentelemetry-instrumentation-langchain {{ version }}
+    - opentelemetry-instrumentation-lancedb {{ version }}
+    - opentelemetry-instrumentation-chromadb {{ version }}
+    - opentelemetry-instrumentation-transformers {{ version }}
+    - opentelemetry-instrumentation-together {{ version }}
+    - opentelemetry-instrumentation-llamaindex {{ version }}
+    - opentelemetry-instrumentation-milvus {{ version }}
+    - opentelemetry-instrumentation-haystack {{ version }}
+    - opentelemetry-instrumentation-bedrock {{ version }}
+    - opentelemetry-instrumentation-sagemaker {{ version }}
+    - opentelemetry-instrumentation-replicate {{ version }}
+    - opentelemetry-instrumentation-vertexai {{ version }}
+    - opentelemetry-instrumentation-watsonx {{ version }}
+    - opentelemetry-instrumentation-weaviate {{ version }}
+    - opentelemetry-instrumentation-alephalpha {{ version }}
+    - opentelemetry-instrumentation-marqo {{ version }}
+    - opentelemetry-instrumentation-groq {{ version }}
     - colorama >=0.4.6,<0.5.0
     - tenacity >=8.2.3,<9.0.0
     - pydantic >=1
