@@ -58,6 +58,7 @@ requirements:
     - opentelemetry-instrumentation-alephalpha {{ version }}
     - opentelemetry-instrumentation-marqo {{ version }}
     - opentelemetry-instrumentation-groq {{ version }}
+    - opentelemetry-instrumentation-mcp {{ version }}
     - colorama >=0.4.6,<0.5.0
     - tenacity >=8.2.3,<9.0.0
     - pydantic >=1
