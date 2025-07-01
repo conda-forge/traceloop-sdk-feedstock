@@ -1,5 +1,5 @@
 {% set name = "traceloop-sdk" %}
-{% set version = "0.40.12" %}
+{% set version = "0.40.14" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/traceloop_sdk-{{ version }}.tar.gz
-  sha256: 947c99dccc3e7e2bf3abb9c7094ea0df10e025f0ab3433287fadf21000868555
+  sha256: 8d4a069890eaf2969067b939192092fee5bf7b5d47c567256208663dc9a49083
 
 build:
   noarch: python
@@ -31,6 +31,7 @@ requirements:
     - opentelemetry-instrumentation-sqlalchemy >=0.50b0
     - opentelemetry-instrumentation-urllib3 >=0.50b0
     - opentelemetry-instrumentation-threading >=0.50b0
+    - opentelemetry-instrumentation-redis >=0.50b0
     - opentelemetry-semantic-conventions-ai 0.4.9
     - opentelemetry-instrumentation-mistralai {{ version }}
     - opentelemetry-instrumentation-openai {{ version }}
