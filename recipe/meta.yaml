@@ -35,6 +35,7 @@ requirements:
     - opentelemetry-semantic-conventions-ai 0.4.10
     - opentelemetry-instrumentation-mistralai {{ version }}
     - opentelemetry-instrumentation-openai {{ version }}
+    - opentelemetry-instrumentation-openai-agents {{ version }}
     - opentelemetry-instrumentation-ollama {{ version }}
     - opentelemetry-instrumentation-anthropic {{ version }}
     - opentelemetry-instrumentation-cohere {{ version }}
