@@ -1,5 +1,5 @@
 {% set name = "traceloop-sdk" %}
-{% set version = "0.41.0" %}
+{% set version = "0.42.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/traceloop_sdk-{{ version }}.tar.gz
-  sha256: 08cde5ef8384b5fecb0994bf9d118a91f5c8423f40ac1422540f7691f3528c22
+  sha256: 9eb969e0e101ba141562f9b951ea55a59032d1dc7c055f86cdd6c58863158d3d
 
 build:
   noarch: python
