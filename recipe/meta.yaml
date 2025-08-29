@@ -68,6 +68,7 @@ requirements:
     - deprecated >=1.2.14,<2.0.0
     - posthog >3.0.2,<4
     - aiohttp >=3.11.11,<4.0.0
+    - cuid >=0.4,<1
 
 test:
   imports:
