@@ -26,13 +26,13 @@ requirements:
     - opentelemetry-sdk >=1.28.0,<2.0.0
     - opentelemetry-exporter-otlp-proto-http >=1.28.0,<2.0.0
     - opentelemetry-exporter-otlp-proto-grpc >=1.28.0,<2.0.0
-    - opentelemetry-instrumentation-logging >=0.50b0
+    - opentelemetry-instrumentation-logging >=0.57b0
     - opentelemetry-instrumentation-requests >=0.50b0
     - opentelemetry-instrumentation-sqlalchemy >=0.50b0
     - opentelemetry-instrumentation-urllib3 >=0.50b0
     - opentelemetry-instrumentation-threading >=0.50b0
     - opentelemetry-instrumentation-redis >=0.50b0
-    - opentelemetry-semantic-conventions-ai 0.4.12
+    - opentelemetry-semantic-conventions-ai >=0.4.13,<0.5
     - opentelemetry-instrumentation-mistralai {{ version }}
     - opentelemetry-instrumentation-openai {{ version }}
     - opentelemetry-instrumentation-openai-agents {{ version }}
