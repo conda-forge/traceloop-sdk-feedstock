@@ -1,5 +1,5 @@
 {% set name = "traceloop-sdk" %}
-{% set version = "0.45.6" %}
+{% set version = "0.46.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/traceloop_sdk-{{ version }}.tar.gz
-  sha256: e7cdce57f413d0905f43ec5bab819264a3d927dd2974adad8d2f6786fa4af2e6
+  sha256: 9cfb79642e986c8b8e6fd35543266953333707fc59d28cb191bccb0588014246
 
 build:
   noarch: python
@@ -26,13 +26,13 @@ requirements:
     - opentelemetry-sdk >=1.28.0,<2.0.0
     - opentelemetry-exporter-otlp-proto-http >=1.28.0,<2.0.0
     - opentelemetry-exporter-otlp-proto-grpc >=1.28.0,<2.0.0
-    - opentelemetry-instrumentation-logging >=0.50b0
+    - opentelemetry-instrumentation-logging >=0.57b0
     - opentelemetry-instrumentation-requests >=0.50b0
     - opentelemetry-instrumentation-sqlalchemy >=0.50b0
     - opentelemetry-instrumentation-urllib3 >=0.50b0
     - opentelemetry-instrumentation-threading >=0.50b0
     - opentelemetry-instrumentation-redis >=0.50b0
-    - opentelemetry-semantic-conventions-ai 0.4.12
+    - opentelemetry-semantic-conventions-ai >=0.4.13,<0.5
     - opentelemetry-instrumentation-mistralai {{ version }}
     - opentelemetry-instrumentation-openai {{ version }}
     - opentelemetry-instrumentation-openai-agents {{ version }}
@@ -68,6 +68,7 @@ requirements:
     - deprecated >=1.2.14,<2.0.0
     - posthog >3.0.2,<4
     - aiohttp >=3.11.11,<4.0.0
+    - cuid >=0.4,<1
 
 test:
   imports:
