@@ -33,6 +33,7 @@ requirements:
     - opentelemetry-instrumentation-threading >=0.59b0
     - opentelemetry-instrumentation-redis >=0.59b0
     - opentelemetry-semantic-conventions-ai >=0.4.13,<0.5
+    - opentelemetry-instrumentation-agno {{ version }}
     - opentelemetry-instrumentation-mistralai {{ version }}
     - opentelemetry-instrumentation-openai {{ version }}
     - opentelemetry-instrumentation-openai-agents {{ version }}
