@@ -63,6 +63,7 @@ requirements:
     - opentelemetry-instrumentation-groq {{ version }}
     - opentelemetry-instrumentation-mcp {{ version }}
     - opentelemetry-instrumentation-writer {{ version }}
+    - opentelemetry-instrumentation-voyageai {{ version }}
     - colorama >=0.4.6,<0.5.0
     - tenacity >=8.2.3,<10
     - pydantic >=1
