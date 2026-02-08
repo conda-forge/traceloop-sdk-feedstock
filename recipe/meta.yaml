@@ -1,5 +1,5 @@
 {% set name = "traceloop-sdk" %}
-{% set version = "0.51.1" %}
+{% set version = "0.52.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/traceloop_sdk-{{ version }}.tar.gz
-  sha256: 23274fde4f8022ef5f2c5d8c9be9d2cc2c8d339724c0c4eecab119352f2352e2
+  sha256: a444f80801740d37185fe05a6e134da392b1ce8c94360396e15f2815067afccf
 
 build:
   noarch: python
@@ -63,6 +63,7 @@ requirements:
     - opentelemetry-instrumentation-groq {{ version }}
     - opentelemetry-instrumentation-mcp {{ version }}
     - opentelemetry-instrumentation-writer {{ version }}
+    - opentelemetry-instrumentation-voyageai {{ version }}
     - colorama >=0.4.6,<0.5.0
     - tenacity >=8.2.3,<10
     - pydantic >=1
