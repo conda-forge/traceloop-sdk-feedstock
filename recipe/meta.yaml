@@ -49,6 +49,7 @@ requirements:
     - opentelemetry-instrumentation-chromadb {{ version }}
     - opentelemetry-instrumentation-transformers {{ version }}
     - opentelemetry-instrumentation-together {{ version }}
+    - opentelemetry-instrumentation-litellm {{ version }}
     - opentelemetry-instrumentation-llamaindex {{ version }}
     - opentelemetry-instrumentation-milvus {{ version }}
     - opentelemetry-instrumentation-haystack {{ version }}
