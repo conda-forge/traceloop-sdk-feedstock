@@ -3,7 +3,6 @@ schema_version: 1
 context:
   name: traceloop-sdk
   version: "0.62.4"
-  python_min: "3.10"
 
 package:
   name: ${{ name }}
