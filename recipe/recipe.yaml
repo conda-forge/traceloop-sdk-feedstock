@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: traceloop-sdk
-  version: "0.62.4"
+  version: "0.63.0"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/traceloop_sdk-${{ version }}.tar.gz
-  sha256: 033dbeb200021c4381a3e2aaf8678747b61d85c758ef9e36648e29b16d0d8deb
+  sha256: 3b25c62f130543a3a8c1535a85bd423b9bdd98a87028b71eef05c8cb4fc66889
 
 build:
   number: 0
